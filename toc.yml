@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 - name: Home
   href: index.md
 - name: API Documentation
   href: api/BOOSEapp.html
+=======
+- name: Home
+  href: index.md
+- name: API Documentation
+  href: api/BOOSEapp.html
+>>>>>>> da5d26b (updates)

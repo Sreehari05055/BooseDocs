@@ -1,0 +1,205 @@
+{
+  "source_base_path": "C:/Users/SreehariA/source/documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppCommandFactory",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">Factory class for creating BOOSE command instances based on command names.\nExtends the base CommandFactory to provide application-specific command creation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseApp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseApp",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseApp.yml\" sourcestartlinenumber=\"1\">Main form class for the BOOSE application. Handles user interface interactions,\nprogram parsing, execution, and canvas rendering.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseCanvas",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseCanvas.yml\" sourcestartlinenumber=\"1\">Implements the ICanvas interface to provide drawing functionality for the BOOSE application.\nManages a bitmap canvas with drawing operations including shapes, lines, and text.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseCircle",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseCircle.yml\" sourcestartlinenumber=\"1\">Command class for drawing circles on the canvas. Extends CommandOneParameter to handle circle drawing operations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseClear.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseClear.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseClear",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseClear.yml\" sourcestartlinenumber=\"1\">Command class for clearing the canvas. Extends CanvasCommand to handle canvas clearing operations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseDrawTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseDrawTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseDrawTo",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseDrawTo.yml\" sourcestartlinenumber=\"1\">Command class for drawing a line from the current position to specified coordinates. Extends CommandTwoParameters to handle line drawing.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseMoveto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseMoveto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseMoveto",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseMoveto.yml\" sourcestartlinenumber=\"1\">Command class for moving the drawing position without drawing. Extends CommandTwoParameters to handle position movement.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseReset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseReset.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseReset",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseReset.yml\" sourcestartlinenumber=\"1\">Command class for resetting the drawing position to the center of the canvas. Extends CanvasCommand to handle position reset operations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseTriangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseTriangle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseTriangle",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseTriangle.yml\" sourcestartlinenumber=\"1\">Command class for drawing triangles on the canvas. Extends CommandTwoParameters to handle triangle drawing operations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
