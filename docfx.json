@@ -11,8 +11,20 @@
         }
       ],
       "dest": "api"
+    },
+    {
+      "src": [
+        {
+          "src": "C:/Users/SreehariA/source/repos/ASE2025repos/ase-boose-assignment-Sreehari05055/BooseTest",
+          "files": [
+            "**/*.csproj"
+          ]
+        }
+      ],
+      "dest": "api-test"
     }
   ],
+
   "build": {
     "content": [
       {
@@ -38,7 +50,7 @@
     ],
     "globalMetadata": {
       "_appName": "boose",
-      "_appTitle": "boose",
+      "_appTitle": "BOOSE App & Tests Documentation",
       "_enableSearch": true,
       "pdf": true
     }

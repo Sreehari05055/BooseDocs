@@ -22,6 +22,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api-test/BooseTest.Test1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/BooseTest.Test1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTest.Test1",
+      "Summary": "<p sourcefile=\"api-test/BooseTest.Test1.yml\" sourcestartlinenumber=\"1\">Test class containing unit tests for the BOOSE application canvas and command functionality.\nTests cover basic drawing operations, position management, color settings, and program execution.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-test/BooseTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/BooseTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTest",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api-test/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/toc.html"
+        },
+        ".json": {
+          "relative_path": "api-test/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/BOOSEapp.AppCommandFactory.yml",
       "output": {
         ".html": {
