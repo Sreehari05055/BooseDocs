@@ -97,13 +97,33 @@ Classes
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSEapp.AppCommandFactory.html">AppCommandFactory</a></dt>
       <dd><p>Factory class for creating BOOSE command instances based on command names.
-Extends the base CommandFactory to provide application-specific command creation.</p>
+Extends the base CommandFactory to  provide application-specific command creation.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSEapp.BooseApp.html">BooseApp</a></dt>
       <dd><p>Main form class for the BOOSE application. Handles user interface interactions,
 program parsing, execution, and canvas rendering.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.BooseArray.html">BooseArray</a></dt>
+      <dd><p>Represents an array variable in the BOOSE language.
+Supports one-dimensional and two-dimensional arrays of integer or real types.
+Provides peek (read) and poke (write) operations for array element access.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.BooseBoolean.html">BooseBoolean</a></dt>
+      <dd><p>Represents a boolean variable in the BOOSE language.
+Handles declaration, assignment, and evaluation of boolean expressions (true/false).</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.BooseCall.html">BooseCall</a></dt>
+      <dd><p>Represents a method call command in the BOOSE language.
+Invokes a previously defined method with specified arguments.
+Syntax: call methodName [arg1 arg2 ...]</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -128,8 +148,71 @@ Manages a bitmap canvas with drawing operations including shapes, lines, and tex
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.BooseElse.html">BooseElse</a></dt>
+      <dd><p>Represents the else clause of an if-else control structure in the BOOSE language.
+Executes a block of code when the corresponding if condition is false.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.BooseEnd.html">BooseEnd</a></dt>
+      <dd><p>Represents the end marker for compound control structures (if, while, for, method) in the BOOSE language.
+Handles the logic for loop continuation and method returns.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.BooseFor.html">BooseFor</a></dt>
+      <dd><p>Represents a for loop control structure in the BOOSE language.
+Executes a block of code repeatedly with a loop variable iterating from start to end value with an optional step.
+Syntax: for variable = start to end [step increment]</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.BooseIf.html">BooseIf</a></dt>
+      <dd><p>Represents an if conditional control structure in the BOOSE language.
+Executes a block of code only when a specified condition is true.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.BooseInt.html">BooseInt</a></dt>
+      <dd><p>Represents an integer variable in the BOOSE language.
+Handles declaration, assignment, and evaluation of integer expressions.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.BooseMethod.html">BooseMethod</a></dt>
+      <dd><p>Represents a method (function) definition in the BOOSE language.
+Supports local variables, parameters, and return values.
+Syntax: method returnType methodName [type param1, type param2, ...]</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="BOOSEapp.BooseMoveto.html">BooseMoveto</a></dt>
       <dd><p>Command class for moving the drawing position without drawing. Extends CommandTwoParameters to handle position movement.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.BooseParser.html">BooseParser</a></dt>
+      <dd><p>Parser class for analyzing and converting BOOSE program text into executable commands.
+Handles variable declarations, control structures (if, while, for), arrays, methods, and drawing commands.
+Implements the IParser interface from the BOOSE library.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.BoosePeek.html">BoosePeek</a></dt>
+      <dd><p>Represents a peek command for reading a value from an array element in the BOOSE language.
+Syntax: peek targetVariable = arrayName rowIndex [columnIndex]</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.BoosePoke.html">BoosePoke</a></dt>
+      <dd><p>Represents a poke command for writing a value to an array element in the BOOSE language.
+Syntax: poke arrayName rowIndex [columnIndex] = value</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.BooseReal.html">BooseReal</a></dt>
+      <dd><p>Represents a real (double) variable in the BOOSE language.
+Handles declaration, assignment, and evaluation of real number expressions.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -140,6 +223,19 @@ Manages a bitmap canvas with drawing operations including shapes, lines, and tex
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSEapp.BooseTriangle.html">BooseTriangle</a></dt>
       <dd><p>Command class for drawing triangles on the canvas. Extends CommandTwoParameters to handle triangle drawing operations.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.BooseWhile.html">BooseWhile</a></dt>
+      <dd><p>Represents a while loop control structure in the BOOSE language.
+Executes a block of code repeatedly while a condition remains true.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.BooseWrite.html">BooseWrite</a></dt>
+      <dd><p>Represents a write command for displaying text on the canvas in the BOOSE language.
+Supports expressions, variables, and string concatenation.
+Syntax: write &quot;text&quot; or write expression</p>
 </dd>
     </dl>
 

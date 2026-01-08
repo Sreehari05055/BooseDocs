@@ -22,6 +22,258 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api-test/BooseTest.BooseArrayTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/BooseTest.BooseArrayTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTest.BooseArrayTest",
+      "Summary": "<p sourcefile=\"api-test/BooseTest.BooseArrayTest.yml\" sourcestartlinenumber=\"1\">Tests for the BooseArray class to verify array declaration, compilation, and element access.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-test/BooseTest.BooseCircleTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/BooseTest.BooseCircleTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTest.BooseCircleTest",
+      "Summary": "<p sourcefile=\"api-test/BooseTest.BooseCircleTest.yml\" sourcestartlinenumber=\"1\">Tests that drawing a circle does not change the canvas pen position.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-test/BooseTest.BooseClearTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/BooseTest.BooseClearTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTest.BooseClearTest",
+      "Summary": "<p sourcefile=\"api-test/BooseTest.BooseClearTest.yml\" sourcestartlinenumber=\"1\">Tests that the Clear command resets the entire canvas to white, removing all previous drawings.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-test/BooseTest.BooseDrawtoTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/BooseTest.BooseDrawtoTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTest.BooseDrawtoTest",
+      "Summary": "<p sourcefile=\"api-test/BooseTest.BooseDrawtoTest.yml\" sourcestartlinenumber=\"1\">Tests that the DrawTo command correctly draws a line and updates the canvas pen position.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-test/BooseTest.BooseForTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/BooseTest.BooseForTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTest.BooseForTest",
+      "Summary": "<p sourcefile=\"api-test/BooseTest.BooseForTest.yml\" sourcestartlinenumber=\"1\">Tests for the BooseFor class to verify for loop execution.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-test/BooseTest.BooseIfTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/BooseTest.BooseIfTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTest.BooseIfTest",
+      "Summary": "<p sourcefile=\"api-test/BooseTest.BooseIfTest.yml\" sourcestartlinenumber=\"1\">Tests for the BooseIf class to verify conditional execution of code blocks.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-test/BooseTest.BooseIntTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/BooseTest.BooseIntTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTest.BooseIntTest",
+      "Summary": "<p sourcefile=\"api-test/BooseTest.BooseIntTest.yml\" sourcestartlinenumber=\"1\">Tests for the BooseInt class to verify integer variable declaration, assignment, and evaluation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-test/BooseTest.BooseMethodTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/BooseTest.BooseMethodTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTest.BooseMethodTest",
+      "Summary": "<p sourcefile=\"api-test/BooseTest.BooseMethodTest.yml\" sourcestartlinenumber=\"1\">Tests for the BooseMethod class to verify method definition and calling.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-test/BooseTest.BooseMovetoTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/BooseTest.BooseMovetoTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTest.BooseMovetoTest",
+      "Summary": "<p sourcefile=\"api-test/BooseTest.BooseMovetoTest.yml\" sourcestartlinenumber=\"1\">Tests that the MoveTo command correctly updates the canvas pen position without drawing.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-test/BooseTest.BooseMultiPenTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/BooseTest.BooseMultiPenTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTest.BooseMultiPenTest",
+      "Summary": "<p sourcefile=\"api-test/BooseTest.BooseMultiPenTest.yml\" sourcestartlinenumber=\"1\">Tests that a multiline BOOSE program correctly maintains pen position through multiple moveto and drawto commands.\nVerifies that after parsing and executing a program with several position-changing commands,\nthe pen ends up at the expected final position (the last drawto command's target coordinates).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-test/BooseTest.BoosePeekTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/BooseTest.BoosePeekTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTest.BoosePeekTest",
+      "Summary": "<p sourcefile=\"api-test/BooseTest.BoosePeekTest.yml\" sourcestartlinenumber=\"1\">Tests for the BoosePeek command to verify reading values from arrays.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-test/BooseTest.BoosePokeTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/BooseTest.BoosePokeTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTest.BoosePokeTest",
+      "Summary": "<p sourcefile=\"api-test/BooseTest.BoosePokeTest.yml\" sourcestartlinenumber=\"1\">Tests for the BoosePoke command to verify writing values to arrays.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-test/BooseTest.BooseRealTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/BooseTest.BooseRealTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTest.BooseRealTest",
+      "Summary": "<p sourcefile=\"api-test/BooseTest.BooseRealTest.yml\" sourcestartlinenumber=\"1\">Tests for the BooseReal class to verify real (double) variable declaration and assignment.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-test/BooseTest.BooseRectTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/BooseTest.BooseRectTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTest.BooseRectTest",
+      "Summary": "<p sourcefile=\"api-test/BooseTest.BooseRectTest.yml\" sourcestartlinenumber=\"1\">Tests that drawing a rectangle does not change the canvas pen position.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-test/BooseTest.BooseResetTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/BooseTest.BooseResetTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTest.BooseResetTest",
+      "Summary": "<p sourcefile=\"api-test/BooseTest.BooseResetTest.yml\" sourcestartlinenumber=\"1\">Tests that the Reset command moves the pen position to the center of the canvas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-test/BooseTest.BooseSetColTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/BooseTest.BooseSetColTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTest.BooseSetColTest",
+      "Summary": "<p sourcefile=\"api-test/BooseTest.BooseSetColTest.yml\" sourcestartlinenumber=\"1\">Tests that the SetColour command correctly updates the pen color using RGB values.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-test/BooseTest.BooseTriTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/BooseTest.BooseTriTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTest.BooseTriTest",
+      "Summary": "<p sourcefile=\"api-test/BooseTest.BooseTriTest.yml\" sourcestartlinenumber=\"1\">Tests that drawing a triangle does not change the canvas pen position.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-test/BooseTest.BooseWhileTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-test/BooseTest.BooseWhileTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTest.BooseWhileTest",
+      "Summary": "<p sourcefile=\"api-test/BooseTest.BooseWhileTest.yml\" sourcestartlinenumber=\"1\">Tests for the BooseWhile class to verify while loop execution.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api-test/BooseTest.Test1.yml",
       "output": {
         ".html": {
@@ -73,7 +325,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "BOOSEapp.AppCommandFactory",
-      "Summary": "<p sourcefile=\"api/BOOSEapp.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">Factory class for creating BOOSE command instances based on command names.\nExtends the base CommandFactory to provide application-specific command creation.</p>\n"
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">Factory class for creating BOOSE command instances based on command names.\nExtends the base CommandFactory to  provide application-specific command creation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -88,6 +340,48 @@
       "IsMRef": true,
       "Title": "BOOSEapp.BooseApp",
       "Summary": "<p sourcefile=\"api/BOOSEapp.BooseApp.yml\" sourcestartlinenumber=\"1\">Main form class for the BOOSE application. Handles user interface interactions,\nprogram parsing, execution, and canvas rendering.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseArray",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseArray.yml\" sourcestartlinenumber=\"1\">Represents an array variable in the BOOSE language.\nSupports one-dimensional and two-dimensional arrays of integer or real types.\nProvides peek (read) and poke (write) operations for array element access.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseBoolean.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseBoolean.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseBoolean",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseBoolean.yml\" sourcestartlinenumber=\"1\">Represents a boolean variable in the BOOSE language.\nHandles declaration, assignment, and evaluation of boolean expressions (true/false).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseCall.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseCall.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseCall",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseCall.yml\" sourcestartlinenumber=\"1\">Represents a method call command in the BOOSE language.\nInvokes a previously defined method with specified arguments.\nSyntax: call methodName [arg1 arg2 ...]</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -147,6 +441,90 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseElse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseElse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseElse",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseElse.yml\" sourcestartlinenumber=\"1\">Represents the else clause of an if-else control structure in the BOOSE language.\nExecutes a block of code when the corresponding if condition is false.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseEnd.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseEnd",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseEnd.yml\" sourcestartlinenumber=\"1\">Represents the end marker for compound control structures (if, while, for, method) in the BOOSE language.\nHandles the logic for loop continuation and method returns.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseFor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseFor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseFor",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseFor.yml\" sourcestartlinenumber=\"1\">Represents a for loop control structure in the BOOSE language.\nExecutes a block of code repeatedly with a loop variable iterating from start to end value with an optional step.\nSyntax: for variable = start to end [step increment]</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseIf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseIf.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseIf",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseIf.yml\" sourcestartlinenumber=\"1\">Represents an if conditional control structure in the BOOSE language.\nExecutes a block of code only when a specified condition is true.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseInt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseInt",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseInt.yml\" sourcestartlinenumber=\"1\">Represents an integer variable in the BOOSE language.\nHandles declaration, assignment, and evaluation of integer expressions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseMethod.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseMethod",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseMethod.yml\" sourcestartlinenumber=\"1\">Represents a method (function) definition in the BOOSE language.\nSupports local variables, parameters, and return values.\nSyntax: method returnType methodName [type param1, type param2, ...]</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/BOOSEapp.BooseMoveto.yml",
       "output": {
         ".html": {
@@ -158,6 +536,62 @@
       "IsMRef": true,
       "Title": "BOOSEapp.BooseMoveto",
       "Summary": "<p sourcefile=\"api/BOOSEapp.BooseMoveto.yml\" sourcestartlinenumber=\"1\">Command class for moving the drawing position without drawing. Extends CommandTwoParameters to handle position movement.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseParser",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseParser.yml\" sourcestartlinenumber=\"1\">Parser class for analyzing and converting BOOSE program text into executable commands.\nHandles variable declarations, control structures (if, while, for), arrays, methods, and drawing commands.\nImplements the IParser interface from the BOOSE library.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BoosePeek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BoosePeek.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BoosePeek",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BoosePeek.yml\" sourcestartlinenumber=\"1\">Represents a peek command for reading a value from an array element in the BOOSE language.\nSyntax: peek targetVariable = arrayName rowIndex [columnIndex]</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BoosePoke.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BoosePoke.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BoosePoke",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BoosePoke.yml\" sourcestartlinenumber=\"1\">Represents a poke command for writing a value to an array element in the BOOSE language.\nSyntax: poke arrayName rowIndex [columnIndex] = value</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseReal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseReal",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseReal.yml\" sourcestartlinenumber=\"1\">Represents a real (double) variable in the BOOSE language.\nHandles declaration, assignment, and evaluation of real number expressions.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -186,6 +620,34 @@
       "IsMRef": true,
       "Title": "BOOSEapp.BooseTriangle",
       "Summary": "<p sourcefile=\"api/BOOSEapp.BooseTriangle.yml\" sourcestartlinenumber=\"1\">Command class for drawing triangles on the canvas. Extends CommandTwoParameters to handle triangle drawing operations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseWhile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseWhile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseWhile",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseWhile.yml\" sourcestartlinenumber=\"1\">Represents a while loop control structure in the BOOSE language.\nExecutes a block of code repeatedly while a condition remains true.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.BooseWrite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.BooseWrite.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.BooseWrite",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.BooseWrite.yml\" sourcestartlinenumber=\"1\">Represents a write command for displaying text on the canvas in the BOOSE language.\nSupports expressions, variables, and string concatenation.\nSyntax: write &quot;text&quot; or write expression</p>\n"
     },
     {
       "type": "ManagedReference",
