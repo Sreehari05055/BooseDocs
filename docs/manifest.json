@@ -102,7 +102,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "BooseTest.BooseIfTest",
-      "Summary": "<p sourcefile=\"api-test/BooseTest.BooseIfTest.yml\" sourcestartlinenumber=\"1\">Tests for the BooseIf class to verify conditional execution of code blocks.</p>\n"
+      "Summary": "<p sourcefile=\"api-test/BooseTest.BooseIfTest.yml\" sourcestartlinenumber=\"1\">Tests for the BooseIf class to verify conditional execution.</p>\n"
     },
     {
       "type": "ManagedReference",

@@ -426,25 +426,6 @@ references:
   commentId: T:BOOSEapp.BooseCanvas
   fullName: BOOSEapp.BooseCanvas
   nameWithType: BooseCanvas
-- uid: BOOSEapp.BooseCanvas.#ctor(System.Int32,System.Int32)
-  name: BooseCanvas(int, int)
-  href: api/BOOSEapp.BooseCanvas.html#BOOSEapp_BooseCanvas__ctor_System_Int32_System_Int32_
-  commentId: M:BOOSEapp.BooseCanvas.#ctor(System.Int32,System.Int32)
-  name.vb: New(Integer, Integer)
-  fullName: BOOSEapp.BooseCanvas.BooseCanvas(int, int)
-  fullName.vb: BOOSEapp.BooseCanvas.New(Integer, Integer)
-  nameWithType: BooseCanvas.BooseCanvas(int, int)
-  nameWithType.vb: BooseCanvas.New(Integer, Integer)
-- uid: BOOSEapp.BooseCanvas.#ctor*
-  name: BooseCanvas
-  href: api/BOOSEapp.BooseCanvas.html#BOOSEapp_BooseCanvas__ctor_
-  commentId: Overload:BOOSEapp.BooseCanvas.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: BOOSEapp.BooseCanvas.BooseCanvas
-  fullName.vb: BOOSEapp.BooseCanvas.New
-  nameWithType: BooseCanvas.BooseCanvas
-  nameWithType.vb: BooseCanvas.New
 - uid: BOOSEapp.BooseCanvas.Circle(System.Int32,System.Boolean)
   name: Circle(int, bool)
   href: api/BOOSEapp.BooseCanvas.html#BOOSEapp_BooseCanvas_Circle_System_Int32_System_Boolean_
@@ -503,6 +484,22 @@ references:
   isSpec: "True"
   fullName: BOOSEapp.BooseCanvas.GetPenColour
   nameWithType: BooseCanvas.GetPenColour
+- uid: BOOSEapp.BooseCanvas.Instance(System.Int32,System.Int32)
+  name: Instance(int, int)
+  href: api/BOOSEapp.BooseCanvas.html#BOOSEapp_BooseCanvas_Instance_System_Int32_System_Int32_
+  commentId: M:BOOSEapp.BooseCanvas.Instance(System.Int32,System.Int32)
+  name.vb: Instance(Integer, Integer)
+  fullName: BOOSEapp.BooseCanvas.Instance(int, int)
+  fullName.vb: BOOSEapp.BooseCanvas.Instance(Integer, Integer)
+  nameWithType: BooseCanvas.Instance(int, int)
+  nameWithType.vb: BooseCanvas.Instance(Integer, Integer)
+- uid: BOOSEapp.BooseCanvas.Instance*
+  name: Instance
+  href: api/BOOSEapp.BooseCanvas.html#BOOSEapp_BooseCanvas_Instance_
+  commentId: Overload:BOOSEapp.BooseCanvas.Instance
+  isSpec: "True"
+  fullName: BOOSEapp.BooseCanvas.Instance
+  nameWithType: BooseCanvas.Instance
 - uid: BOOSEapp.BooseCanvas.MoveTo(System.Int32,System.Int32)
   name: MoveTo(int, int)
   href: api/BOOSEapp.BooseCanvas.html#BOOSEapp_BooseCanvas_MoveTo_System_Int32_System_Int32_
@@ -2138,6 +2135,19 @@ references:
   isSpec: "True"
   fullName: BooseTest.BooseArrayTest.RealArray_SetAndGetValue_Test
   nameWithType: BooseArrayTest.RealArray_SetAndGetValue_Test
+- uid: BooseTest.BooseArrayTest.TestInitialize
+  name: TestInitialize()
+  href: api-test/BooseTest.BooseArrayTest.html#BooseTest_BooseArrayTest_TestInitialize
+  commentId: M:BooseTest.BooseArrayTest.TestInitialize
+  fullName: BooseTest.BooseArrayTest.TestInitialize()
+  nameWithType: BooseArrayTest.TestInitialize()
+- uid: BooseTest.BooseArrayTest.TestInitialize*
+  name: TestInitialize
+  href: api-test/BooseTest.BooseArrayTest.html#BooseTest_BooseArrayTest_TestInitialize_
+  commentId: Overload:BooseTest.BooseArrayTest.TestInitialize
+  isSpec: "True"
+  fullName: BooseTest.BooseArrayTest.TestInitialize
+  nameWithType: BooseArrayTest.TestInitialize
 - uid: BooseTest.BooseCircleTest
   name: BooseCircleTest
   href: api-test/BooseTest.BooseCircleTest.html
@@ -2157,6 +2167,19 @@ references:
   isSpec: "True"
   fullName: BooseTest.BooseCircleTest.CircleTest
   nameWithType: BooseCircleTest.CircleTest
+- uid: BooseTest.BooseCircleTest.TestInitialize
+  name: TestInitialize()
+  href: api-test/BooseTest.BooseCircleTest.html#BooseTest_BooseCircleTest_TestInitialize
+  commentId: M:BooseTest.BooseCircleTest.TestInitialize
+  fullName: BooseTest.BooseCircleTest.TestInitialize()
+  nameWithType: BooseCircleTest.TestInitialize()
+- uid: BooseTest.BooseCircleTest.TestInitialize*
+  name: TestInitialize
+  href: api-test/BooseTest.BooseCircleTest.html#BooseTest_BooseCircleTest_TestInitialize_
+  commentId: Overload:BooseTest.BooseCircleTest.TestInitialize
+  isSpec: "True"
+  fullName: BooseTest.BooseCircleTest.TestInitialize
+  nameWithType: BooseCircleTest.TestInitialize
 - uid: BooseTest.BooseClearTest
   name: BooseClearTest
   href: api-test/BooseTest.BooseClearTest.html
@@ -2176,6 +2199,19 @@ references:
   isSpec: "True"
   fullName: BooseTest.BooseClearTest.ClearTest
   nameWithType: BooseClearTest.ClearTest
+- uid: BooseTest.BooseClearTest.TestInitialize
+  name: TestInitialize()
+  href: api-test/BooseTest.BooseClearTest.html#BooseTest_BooseClearTest_TestInitialize
+  commentId: M:BooseTest.BooseClearTest.TestInitialize
+  fullName: BooseTest.BooseClearTest.TestInitialize()
+  nameWithType: BooseClearTest.TestInitialize()
+- uid: BooseTest.BooseClearTest.TestInitialize*
+  name: TestInitialize
+  href: api-test/BooseTest.BooseClearTest.html#BooseTest_BooseClearTest_TestInitialize_
+  commentId: Overload:BooseTest.BooseClearTest.TestInitialize
+  isSpec: "True"
+  fullName: BooseTest.BooseClearTest.TestInitialize
+  nameWithType: BooseClearTest.TestInitialize
 - uid: BooseTest.BooseDrawtoTest
   name: BooseDrawtoTest
   href: api-test/BooseTest.BooseDrawtoTest.html
@@ -2195,6 +2231,19 @@ references:
   isSpec: "True"
   fullName: BooseTest.BooseDrawtoTest.DrawToTest
   nameWithType: BooseDrawtoTest.DrawToTest
+- uid: BooseTest.BooseDrawtoTest.TestInitialize
+  name: TestInitialize()
+  href: api-test/BooseTest.BooseDrawtoTest.html#BooseTest_BooseDrawtoTest_TestInitialize
+  commentId: M:BooseTest.BooseDrawtoTest.TestInitialize
+  fullName: BooseTest.BooseDrawtoTest.TestInitialize()
+  nameWithType: BooseDrawtoTest.TestInitialize()
+- uid: BooseTest.BooseDrawtoTest.TestInitialize*
+  name: TestInitialize
+  href: api-test/BooseTest.BooseDrawtoTest.html#BooseTest_BooseDrawtoTest_TestInitialize_
+  commentId: Overload:BooseTest.BooseDrawtoTest.TestInitialize
+  isSpec: "True"
+  fullName: BooseTest.BooseDrawtoTest.TestInitialize
+  nameWithType: BooseDrawtoTest.TestInitialize
 - uid: BooseTest.BooseForTest
   name: BooseForTest
   href: api-test/BooseTest.BooseForTest.html
@@ -2214,6 +2263,19 @@ references:
   isSpec: "True"
   fullName: BooseTest.BooseForTest.For_SimpleLoop_Test
   nameWithType: BooseForTest.For_SimpleLoop_Test
+- uid: BooseTest.BooseForTest.TestInitialize
+  name: TestInitialize()
+  href: api-test/BooseTest.BooseForTest.html#BooseTest_BooseForTest_TestInitialize
+  commentId: M:BooseTest.BooseForTest.TestInitialize
+  fullName: BooseTest.BooseForTest.TestInitialize()
+  nameWithType: BooseForTest.TestInitialize()
+- uid: BooseTest.BooseForTest.TestInitialize*
+  name: TestInitialize
+  href: api-test/BooseTest.BooseForTest.html#BooseTest_BooseForTest_TestInitialize_
+  commentId: Overload:BooseTest.BooseForTest.TestInitialize
+  isSpec: "True"
+  fullName: BooseTest.BooseForTest.TestInitialize
+  nameWithType: BooseForTest.TestInitialize
 - uid: BooseTest.BooseIfTest
   name: BooseIfTest
   href: api-test/BooseTest.BooseIfTest.html
@@ -2233,6 +2295,19 @@ references:
   isSpec: "True"
   fullName: BooseTest.BooseIfTest.If_SimpleCondition_Test
   nameWithType: BooseIfTest.If_SimpleCondition_Test
+- uid: BooseTest.BooseIfTest.TestInitialize
+  name: TestInitialize()
+  href: api-test/BooseTest.BooseIfTest.html#BooseTest_BooseIfTest_TestInitialize
+  commentId: M:BooseTest.BooseIfTest.TestInitialize
+  fullName: BooseTest.BooseIfTest.TestInitialize()
+  nameWithType: BooseIfTest.TestInitialize()
+- uid: BooseTest.BooseIfTest.TestInitialize*
+  name: TestInitialize
+  href: api-test/BooseTest.BooseIfTest.html#BooseTest_BooseIfTest_TestInitialize_
+  commentId: Overload:BooseTest.BooseIfTest.TestInitialize
+  isSpec: "True"
+  fullName: BooseTest.BooseIfTest.TestInitialize
+  nameWithType: BooseIfTest.TestInitialize
 - uid: BooseTest.BooseIntTest
   name: BooseIntTest
   href: api-test/BooseTest.BooseIntTest.html
@@ -2304,6 +2379,19 @@ references:
   isSpec: "True"
   fullName: BooseTest.BooseIntTest.Int_Reassignment_Test
   nameWithType: BooseIntTest.Int_Reassignment_Test
+- uid: BooseTest.BooseIntTest.TestInitialize
+  name: TestInitialize()
+  href: api-test/BooseTest.BooseIntTest.html#BooseTest_BooseIntTest_TestInitialize
+  commentId: M:BooseTest.BooseIntTest.TestInitialize
+  fullName: BooseTest.BooseIntTest.TestInitialize()
+  nameWithType: BooseIntTest.TestInitialize()
+- uid: BooseTest.BooseIntTest.TestInitialize*
+  name: TestInitialize
+  href: api-test/BooseTest.BooseIntTest.html#BooseTest_BooseIntTest_TestInitialize_
+  commentId: Overload:BooseTest.BooseIntTest.TestInitialize
+  isSpec: "True"
+  fullName: BooseTest.BooseIntTest.TestInitialize
+  nameWithType: BooseIntTest.TestInitialize
 - uid: BooseTest.BooseMethodTest
   name: BooseMethodTest
   href: api-test/BooseTest.BooseMethodTest.html
@@ -2323,6 +2411,19 @@ references:
   isSpec: "True"
   fullName: BooseTest.BooseMethodTest.Method_SimpleCall_Test
   nameWithType: BooseMethodTest.Method_SimpleCall_Test
+- uid: BooseTest.BooseMethodTest.TestInitialize
+  name: TestInitialize()
+  href: api-test/BooseTest.BooseMethodTest.html#BooseTest_BooseMethodTest_TestInitialize
+  commentId: M:BooseTest.BooseMethodTest.TestInitialize
+  fullName: BooseTest.BooseMethodTest.TestInitialize()
+  nameWithType: BooseMethodTest.TestInitialize()
+- uid: BooseTest.BooseMethodTest.TestInitialize*
+  name: TestInitialize
+  href: api-test/BooseTest.BooseMethodTest.html#BooseTest_BooseMethodTest_TestInitialize_
+  commentId: Overload:BooseTest.BooseMethodTest.TestInitialize
+  isSpec: "True"
+  fullName: BooseTest.BooseMethodTest.TestInitialize
+  nameWithType: BooseMethodTest.TestInitialize
 - uid: BooseTest.BooseMovetoTest
   name: BooseMovetoTest
   href: api-test/BooseTest.BooseMovetoTest.html
@@ -2342,6 +2443,19 @@ references:
   isSpec: "True"
   fullName: BooseTest.BooseMovetoTest.MoveToTest
   nameWithType: BooseMovetoTest.MoveToTest
+- uid: BooseTest.BooseMovetoTest.TestInitialize
+  name: TestInitialize()
+  href: api-test/BooseTest.BooseMovetoTest.html#BooseTest_BooseMovetoTest_TestInitialize
+  commentId: M:BooseTest.BooseMovetoTest.TestInitialize
+  fullName: BooseTest.BooseMovetoTest.TestInitialize()
+  nameWithType: BooseMovetoTest.TestInitialize()
+- uid: BooseTest.BooseMovetoTest.TestInitialize*
+  name: TestInitialize
+  href: api-test/BooseTest.BooseMovetoTest.html#BooseTest_BooseMovetoTest_TestInitialize_
+  commentId: Overload:BooseTest.BooseMovetoTest.TestInitialize
+  isSpec: "True"
+  fullName: BooseTest.BooseMovetoTest.TestInitialize
+  nameWithType: BooseMovetoTest.TestInitialize
 - uid: BooseTest.BooseMultiPenTest
   name: BooseMultiPenTest
   href: api-test/BooseTest.BooseMultiPenTest.html
@@ -2361,6 +2475,19 @@ references:
   isSpec: "True"
   fullName: BooseTest.BooseMultiPenTest.MultilineProgramPenPositionTest
   nameWithType: BooseMultiPenTest.MultilineProgramPenPositionTest
+- uid: BooseTest.BooseMultiPenTest.TestInitialize
+  name: TestInitialize()
+  href: api-test/BooseTest.BooseMultiPenTest.html#BooseTest_BooseMultiPenTest_TestInitialize
+  commentId: M:BooseTest.BooseMultiPenTest.TestInitialize
+  fullName: BooseTest.BooseMultiPenTest.TestInitialize()
+  nameWithType: BooseMultiPenTest.TestInitialize()
+- uid: BooseTest.BooseMultiPenTest.TestInitialize*
+  name: TestInitialize
+  href: api-test/BooseTest.BooseMultiPenTest.html#BooseTest_BooseMultiPenTest_TestInitialize_
+  commentId: Overload:BooseTest.BooseMultiPenTest.TestInitialize
+  isSpec: "True"
+  fullName: BooseTest.BooseMultiPenTest.TestInitialize
+  nameWithType: BooseMultiPenTest.TestInitialize
 - uid: BooseTest.BoosePeekTest
   name: BoosePeekTest
   href: api-test/BooseTest.BoosePeekTest.html
@@ -2380,6 +2507,19 @@ references:
   isSpec: "True"
   fullName: BooseTest.BoosePeekTest.Peek_SimpleInt_Test
   nameWithType: BoosePeekTest.Peek_SimpleInt_Test
+- uid: BooseTest.BoosePeekTest.TestInitialize
+  name: TestInitialize()
+  href: api-test/BooseTest.BoosePeekTest.html#BooseTest_BoosePeekTest_TestInitialize
+  commentId: M:BooseTest.BoosePeekTest.TestInitialize
+  fullName: BooseTest.BoosePeekTest.TestInitialize()
+  nameWithType: BoosePeekTest.TestInitialize()
+- uid: BooseTest.BoosePeekTest.TestInitialize*
+  name: TestInitialize
+  href: api-test/BooseTest.BoosePeekTest.html#BooseTest_BoosePeekTest_TestInitialize_
+  commentId: Overload:BooseTest.BoosePeekTest.TestInitialize
+  isSpec: "True"
+  fullName: BooseTest.BoosePeekTest.TestInitialize
+  nameWithType: BoosePeekTest.TestInitialize
 - uid: BooseTest.BoosePokeTest
   name: BoosePokeTest
   href: api-test/BooseTest.BoosePokeTest.html
@@ -2399,6 +2539,19 @@ references:
   isSpec: "True"
   fullName: BooseTest.BoosePokeTest.Poke_SimpleInt_Test
   nameWithType: BoosePokeTest.Poke_SimpleInt_Test
+- uid: BooseTest.BoosePokeTest.TestInitialize
+  name: TestInitialize()
+  href: api-test/BooseTest.BoosePokeTest.html#BooseTest_BoosePokeTest_TestInitialize
+  commentId: M:BooseTest.BoosePokeTest.TestInitialize
+  fullName: BooseTest.BoosePokeTest.TestInitialize()
+  nameWithType: BoosePokeTest.TestInitialize()
+- uid: BooseTest.BoosePokeTest.TestInitialize*
+  name: TestInitialize
+  href: api-test/BooseTest.BoosePokeTest.html#BooseTest_BoosePokeTest_TestInitialize_
+  commentId: Overload:BooseTest.BoosePokeTest.TestInitialize
+  isSpec: "True"
+  fullName: BooseTest.BoosePokeTest.TestInitialize
+  nameWithType: BoosePokeTest.TestInitialize
 - uid: BooseTest.BooseRealTest
   name: BooseRealTest
   href: api-test/BooseTest.BooseRealTest.html
@@ -2418,6 +2571,19 @@ references:
   isSpec: "True"
   fullName: BooseTest.BooseRealTest.Real_SimpleDeclaration_Test
   nameWithType: BooseRealTest.Real_SimpleDeclaration_Test
+- uid: BooseTest.BooseRealTest.TestInitialize
+  name: TestInitialize()
+  href: api-test/BooseTest.BooseRealTest.html#BooseTest_BooseRealTest_TestInitialize
+  commentId: M:BooseTest.BooseRealTest.TestInitialize
+  fullName: BooseTest.BooseRealTest.TestInitialize()
+  nameWithType: BooseRealTest.TestInitialize()
+- uid: BooseTest.BooseRealTest.TestInitialize*
+  name: TestInitialize
+  href: api-test/BooseTest.BooseRealTest.html#BooseTest_BooseRealTest_TestInitialize_
+  commentId: Overload:BooseTest.BooseRealTest.TestInitialize
+  isSpec: "True"
+  fullName: BooseTest.BooseRealTest.TestInitialize
+  nameWithType: BooseRealTest.TestInitialize
 - uid: BooseTest.BooseRectTest
   name: BooseRectTest
   href: api-test/BooseTest.BooseRectTest.html
@@ -2437,6 +2603,19 @@ references:
   isSpec: "True"
   fullName: BooseTest.BooseRectTest.RectTest
   nameWithType: BooseRectTest.RectTest
+- uid: BooseTest.BooseRectTest.TestInitialize
+  name: TestInitialize()
+  href: api-test/BooseTest.BooseRectTest.html#BooseTest_BooseRectTest_TestInitialize
+  commentId: M:BooseTest.BooseRectTest.TestInitialize
+  fullName: BooseTest.BooseRectTest.TestInitialize()
+  nameWithType: BooseRectTest.TestInitialize()
+- uid: BooseTest.BooseRectTest.TestInitialize*
+  name: TestInitialize
+  href: api-test/BooseTest.BooseRectTest.html#BooseTest_BooseRectTest_TestInitialize_
+  commentId: Overload:BooseTest.BooseRectTest.TestInitialize
+  isSpec: "True"
+  fullName: BooseTest.BooseRectTest.TestInitialize
+  nameWithType: BooseRectTest.TestInitialize
 - uid: BooseTest.BooseResetTest
   name: BooseResetTest
   href: api-test/BooseTest.BooseResetTest.html
@@ -2456,6 +2635,19 @@ references:
   isSpec: "True"
   fullName: BooseTest.BooseResetTest.ResetTest
   nameWithType: BooseResetTest.ResetTest
+- uid: BooseTest.BooseResetTest.TestInitialize
+  name: TestInitialize()
+  href: api-test/BooseTest.BooseResetTest.html#BooseTest_BooseResetTest_TestInitialize
+  commentId: M:BooseTest.BooseResetTest.TestInitialize
+  fullName: BooseTest.BooseResetTest.TestInitialize()
+  nameWithType: BooseResetTest.TestInitialize()
+- uid: BooseTest.BooseResetTest.TestInitialize*
+  name: TestInitialize
+  href: api-test/BooseTest.BooseResetTest.html#BooseTest_BooseResetTest_TestInitialize_
+  commentId: Overload:BooseTest.BooseResetTest.TestInitialize
+  isSpec: "True"
+  fullName: BooseTest.BooseResetTest.TestInitialize
+  nameWithType: BooseResetTest.TestInitialize
 - uid: BooseTest.BooseSetColTest
   name: BooseSetColTest
   href: api-test/BooseTest.BooseSetColTest.html
@@ -2475,12 +2667,38 @@ references:
   isSpec: "True"
   fullName: BooseTest.BooseSetColTest.SetColourTest
   nameWithType: BooseSetColTest.SetColourTest
+- uid: BooseTest.BooseSetColTest.TestInitialize
+  name: TestInitialize()
+  href: api-test/BooseTest.BooseSetColTest.html#BooseTest_BooseSetColTest_TestInitialize
+  commentId: M:BooseTest.BooseSetColTest.TestInitialize
+  fullName: BooseTest.BooseSetColTest.TestInitialize()
+  nameWithType: BooseSetColTest.TestInitialize()
+- uid: BooseTest.BooseSetColTest.TestInitialize*
+  name: TestInitialize
+  href: api-test/BooseTest.BooseSetColTest.html#BooseTest_BooseSetColTest_TestInitialize_
+  commentId: Overload:BooseTest.BooseSetColTest.TestInitialize
+  isSpec: "True"
+  fullName: BooseTest.BooseSetColTest.TestInitialize
+  nameWithType: BooseSetColTest.TestInitialize
 - uid: BooseTest.BooseTriTest
   name: BooseTriTest
   href: api-test/BooseTest.BooseTriTest.html
   commentId: T:BooseTest.BooseTriTest
   fullName: BooseTest.BooseTriTest
   nameWithType: BooseTriTest
+- uid: BooseTest.BooseTriTest.TestInitialize
+  name: TestInitialize()
+  href: api-test/BooseTest.BooseTriTest.html#BooseTest_BooseTriTest_TestInitialize
+  commentId: M:BooseTest.BooseTriTest.TestInitialize
+  fullName: BooseTest.BooseTriTest.TestInitialize()
+  nameWithType: BooseTriTest.TestInitialize()
+- uid: BooseTest.BooseTriTest.TestInitialize*
+  name: TestInitialize
+  href: api-test/BooseTest.BooseTriTest.html#BooseTest_BooseTriTest_TestInitialize_
+  commentId: Overload:BooseTest.BooseTriTest.TestInitialize
+  isSpec: "True"
+  fullName: BooseTest.BooseTriTest.TestInitialize
+  nameWithType: BooseTriTest.TestInitialize
 - uid: BooseTest.BooseTriTest.TriTest
   name: TriTest()
   href: api-test/BooseTest.BooseTriTest.html#BooseTest_BooseTriTest_TriTest
@@ -2500,6 +2718,19 @@ references:
   commentId: T:BooseTest.BooseWhileTest
   fullName: BooseTest.BooseWhileTest
   nameWithType: BooseWhileTest
+- uid: BooseTest.BooseWhileTest.TestInitialize
+  name: TestInitialize()
+  href: api-test/BooseTest.BooseWhileTest.html#BooseTest_BooseWhileTest_TestInitialize
+  commentId: M:BooseTest.BooseWhileTest.TestInitialize
+  fullName: BooseTest.BooseWhileTest.TestInitialize()
+  nameWithType: BooseWhileTest.TestInitialize()
+- uid: BooseTest.BooseWhileTest.TestInitialize*
+  name: TestInitialize
+  href: api-test/BooseTest.BooseWhileTest.html#BooseTest_BooseWhileTest_TestInitialize_
+  commentId: Overload:BooseTest.BooseWhileTest.TestInitialize
+  isSpec: "True"
+  fullName: BooseTest.BooseWhileTest.TestInitialize
+  nameWithType: BooseWhileTest.TestInitialize
 - uid: BooseTest.BooseWhileTest.While_SimpleLoop_Test
   name: While_SimpleLoop_Test()
   href: api-test/BooseTest.BooseWhileTest.html#BooseTest_BooseWhileTest_While_SimpleLoop_Test
